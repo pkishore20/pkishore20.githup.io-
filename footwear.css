@@ -1,0 +1,129 @@
+body,h2{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.landing{
+background-image: url('image/footwears.jpg');
+ background-size: cover;
+ background-position: center;
+ height:150vh;
+ color: white;  
+ display: flexbox;
+}
+header a{  /* footwears huts*/
+  margin-top: 150px;
+  text-decoration: none;
+  color: black;
+  min-width: 100px;
+  padding: 9vw;
+}
+header {/* footwears huts and menu,sign*/
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 5em;
+    padding: 2em;
+}
+#logo{
+   flex:1;
+   font-size: 2em;
+   min-width: 100px;
+   text-align: center;
+}
+nav {/*menu and signup*/
+    flex :1;
+    display: flex;
+    font-size: 1.5em;
+    align-items: center;
+}   
+nav a{
+    flex:1;
+    margin-left: 1px;
+    padding: 1px;
+    margin-top: 150px;
+    border-top: 90px;
+    text-decoration: none;
+}
+button a{
+text-decoration: none;
+}
+.maintext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    margin: top 140px;
+}
+.tagline1{
+    color: black;
+    font-size: 2.5 em;
+    margin-left: 1em;
+}
+.tagline2{
+    font-size: 1em;
+  font-weight: bolder;
+    margin-left: 1em;
+    color:brown;
+}
+.maintext div{
+    margin-top:75.em;
+    text-align:center;
+} 
+.maintext button{
+    width:10vw;  
+    padding:.7em;   
+    margin-top:.1.5em;
+    border-radius:10px;
+    background-color:#d5cea3; 
+    border: #d5cea3;
+}
+.menu {
+display:grid;
+background:linear-gradient(to right,rgb(252, 193, 125),rgb(253, 151, 34));
+grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+font-size: 1em;
+color:black;
+}
+#menuheading,#locheading{ 
+  background:linear-gradient(to right,rgb(253, 194,126),rgb(253, 151, 34));
+   font-size: 2.5em;
+   color: brown;
+   display :flex ;
+   justify-content: center;
+}
+.menu th{
+    color:#65647c;
+    font-size: 1.5em;
+}
+table{
+    width: 100%;
+    padding: 1em;
+}
+.menu tr{
+display: flex;
+justify-content: center;
+margin-top:.8em;
+}
+.menu td{
+    flex: 1;
+   justify-content: center;
+   margin-left: 2em;
+}
+.cascualshoes{
+   grid-row:span 2;
+}
+.locations{
+    background:linear-gradient(to right,rgb(253, 194, 126),rgb(253, 151, 34));
+    color:black; 
+    display: flex;
+    flex-wrap: wrap;
+}
+.locations h2{
+    color :#65647c;
+    margin-bottom:.8em;
+}
+.locations div{
+    flex:2;
+    margin-left: 2em;
+    padding: 1em;
+    min-width: 228px;
+}
